@@ -3,7 +3,7 @@
    ═════════════════════════════════════════════════════════════ */
 
 // ──────────────────── CONFIGURATION ──────────────────────
-const SCRIPT_URL = "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyNx5cS45rD2vmw_4WZGbbY8sxlIJS5DcUvDhus1GBzV7j0Usew8JIjnOON1qFw3bbdDQ/exec";
 const SHOP_URL   = "https://shopee.com.my/spmsprinter";
 
 // ──────────────────── STATE ──────────────────────
