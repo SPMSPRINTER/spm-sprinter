@@ -15,14 +15,23 @@
   <main class="container">
     <div class="card">
       <div class="logo-section">
-        <img src="logo.png" alt="SPM Sprinter Logo" class="logo-image" onerror="this.style.display='none'" />
-        <h1 class="brand-title">SPM Sprinter</h1>
-        <p class="brand-tagline">Sprint Towards Straight A's</p>
+        <img src="logo.png" alt="SPM Sprinter — Sprint Towards Straight A's" class="logo-image"
+             onerror="this.style.display='none'; document.getElementById('logoFallback').style.display='block'" />
+        <div id="logoFallback" style="display:none; text-align:center;">
+          <h1 class="brand-title">SPM Sprinter</h1>
+          <p class="brand-tagline">Sprint Towards Straight A's</p>
+        </div>
       </div>
 
       <h2 class="page-title">Get Your Study Deck</h2>
       <p class="page-subtitle">Enter your Shopee Order ID to receive your premium SPM study materials instantly.</p>
       <div class="divider"></div>
+
+      <div class="trust-badges">
+        <span class="trust-badge">⚡ Instant Delivery</span>
+        <span class="trust-badge">🔒 Secure</span>
+        <span class="trust-badge">🎓 Exam-Ready</span>
+      </div>
 
       <div id="app" class="app-container"></div>
 
